@@ -3,8 +3,6 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Preloader from "@/components/Preloader";
-import styles from "@/styles/Container.module.css";
 
 type IconProps = {
   ["data-hide"]: boolean;
