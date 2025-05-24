@@ -39,16 +39,6 @@ const navLinks = [
   { href: "#services", text: "Services" },
 ];
 
-function handleClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-  const href = e.currentTarget.getAttribute("href");
-
-  if (href && href.startsWith("#")) {
-    e.preventDefault();
-    const section = document.querySelector(href);
-    scrollTo(section);
-  }
-}
-
 function NavItem(props: NavProps) {
   return (
     <motion.li
