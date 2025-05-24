@@ -327,7 +327,19 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1.25rem 2rem;
+  transition: background-color .4s;
+}
 
+.button:hover {
+  background-color: var(--first-color-light);
+}
 
 /*=============== WORKS ===============*/
 .work{
@@ -404,12 +416,20 @@ img {
   margin-bottom: 2rem;
 }
 
+.about__description b{
+  color: var(--first-color-light);
+}
+
 .about.img{
   width: 250px;
   justify-self: center;
   mask-image: linear-gradient(to bottom,
               hsla(var(--hue), 40%, 16%) 60%,
               transparent 100%);
+}
+
+.about__button{
+  width: 100%;
 }
 
 /* EXPERIENCE */
