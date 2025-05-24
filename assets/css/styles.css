@@ -347,6 +347,25 @@ img {
   transition: transform .4s;
 }
 
+.work__title{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: .75rem;
+}
+
+.work__description{
+  margin-bottom: 1.5rem;
+}
+
+.work__link{
+  position:absolute;
+  top: 1.8rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color-light);
+  transition: transform .4s;
+}
+
 /*=============== INFO ===============*/
 
 
