@@ -366,6 +366,14 @@ img {
   transition: transform .4s;
 }
 
+.work__link:hover {
+  transform: translateY(-.35rem);
+}
+
+.work__link:hover i {
+  transform: translateX(.5rem);
+}
+
 /*=============== INFO ===============*/
 
 
