@@ -375,10 +375,42 @@ img {
 }
 
 /*=============== INFO ===============*/
+.info__container{
+  row-gap: 3rem;
+}
 
+.info__title{
+  position: relative;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.info__title::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 20px;
+  height: 2px;
+  background-color: var(--text-color);
+}
 
 /* ABOUT */
+.about{
+  row-gap: 3rem;
+}
 
+.about__description{
+  margin-bottom: 2rem;
+}
+
+.about.img{
+  width: 250px;
+  justify-self: center;
+  mask-image: linear-gradient(to bottom,
+              hsla(var(--hue), 40%, 16%) 60%,
+              transparent 100%);
+}
 
 /* EXPERIENCE */
 
