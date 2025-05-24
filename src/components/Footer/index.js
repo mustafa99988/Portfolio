@@ -131,9 +131,7 @@ const Footer = ({ footerData, links=[] }) => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <a href="">
-          <LogoImg src={logo} alt="Sibi Siddharth S Logo MyMind" />
-        </a>
+        
         <Logo>Sibi Siddharth S</Logo>
         <Nav>
           {links.map((link, index) => (
