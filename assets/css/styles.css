@@ -739,7 +739,7 @@ img {
     gap: 3rem 16rem;
   }
   .home__img{
-    width: 500px;
+    width: auto;
   }
   .home__name{
     margin-bottom: 1.5rem;
