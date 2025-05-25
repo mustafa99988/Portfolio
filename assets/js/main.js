@@ -35,7 +35,7 @@ const scrollHeader = () =>{
     this.scrollY >= 50 ? header.classList.add('blur-header')
                        : header.classList.remove('blur-header');
 }
-window.addEventListener('scroll', scrollHeader);
+window.addEventListener('scroll', blurHeader);
 
 /*=============== EMAIL JS ===============*/
 const contactForm = document.getElementById('contact-form'),
