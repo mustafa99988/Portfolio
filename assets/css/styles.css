@@ -490,8 +490,22 @@ img {
 }
 
 
-/*=============== SERVICES ===============*/
+/*=============== Certificatesa ===============*/
+.info__certificates{
+  position: relative;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
 
+.info__certificates::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -.5px;
+  width: 20px;
+  height: 2px;
+  background-color: var(--text-color);
+}
 
 /*=============== CONTACT ===============*/
 .contact__container{
