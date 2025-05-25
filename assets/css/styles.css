@@ -491,20 +491,29 @@ img {
 
 
 /*=============== Certificatesa ===============*/
-.info__certificates{
-  position: relative;
-  font-size: var(--small-font-size);
-  color: var(--text-color);
+.certificates__img{
+  width: 35px;
+  margin-bottom: .5rem;
 }
 
-.info__certificates::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -.5px;
-  width: 20px;
-  height: 2px;
-  background-color: var(--text-color);
+.certificates__name{
+  font-size: var(--small-font-size);
+}
+
+.certificates__content{
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.certificates__box{
+  display: grid;
+  place-items: center;
+  transition: transform .4s;
+}
+
+.certificates__box:hover {
+  transform: translateY(-.25rem);
 }
 
 /*=============== CONTACT ===============*/
@@ -656,6 +665,9 @@ img {
   .skills__content{
     grid-template-columns: repeat(2, max-content);
   }
+  .certificates__content{
+    grid-template-columns: repeat(2, max-content);
+  }
 }
 
 /* For medium devices */
@@ -715,6 +727,12 @@ img {
   }
 
   .skills__content{
+    grid-template-columns: repeat(5, max-content);
+    justify-content: initial;
+    column-gap: 4rem;
+  }
+
+  .certificates__content{
     grid-template-columns: repeat(5, max-content);
     justify-content: initial;
     column-gap: 4rem;
@@ -825,6 +843,10 @@ img {
   }
 
   .skills__content{
+    grid-template-columns: repeat(6, max-content);
+  }
+
+  .certificates__content{
     grid-template-columns: repeat(6, max-content);
   }
 
