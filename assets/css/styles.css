@@ -739,14 +739,14 @@ img {
     gap: 3rem 16rem;
   }
   .home__img{
-    width: 350px;
+    width: 500px;
   }
   .home__name{
     margin-bottom: 1.5rem;
   }
   .home__profession{
     bottom: -1rem;
-    width: 35%;
+    width: 60%;
   }
 
   .work__container{
