@@ -458,6 +458,30 @@ img {
 }
 
 /* SKILLS */
+.skills__img{
+  width: 35px;
+  margin-bottom: .5rem;
+}
+
+.skills__name{
+  font-size: var(--small-font-size);
+}
+
+.skills__content{
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.skills_box{
+  display: grid;
+  place-items: center;
+  transition: transform .4s;
+}
+
+.skills_box:hover {
+  transform: translateY(-.25rem);
+}
 
 
 /*=============== SERVICES ===============*/
