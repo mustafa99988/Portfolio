@@ -61,6 +61,7 @@ const sendEmail = (e) =>{
             contactMessage.textContent = 'Message not sent (service error) ❌'
         })
 }
+contactForm.addEventListener('submit', sendEmail);
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollup = () => {
     const scrollUp = document.getElementById('scroll-up');
