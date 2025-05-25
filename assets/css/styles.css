@@ -451,7 +451,7 @@ img {
   margin-bottom: .25rem;
 }
 
-.expereience_date{
+.expereience__date{
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: .75rem;
@@ -459,7 +459,7 @@ img {
 
 /* SKILLS */
 .skills__img{
-  width: 40px;
+  width: 35px;
   margin-bottom: .5rem;
 }
 
