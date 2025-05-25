@@ -750,7 +750,7 @@ img {
   }
 
   .work__container{
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 100%);
     gap: 2.5rem;
   }
   .work__link{
