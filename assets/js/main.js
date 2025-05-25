@@ -29,7 +29,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 
 /*=============== ADD BLUR HEADER ===============*/
-const scrollHeader = () =>{
+const blurHeader = () =>{
     const header = document.getElementById('header');
     // add a class if the bottom offset is greater than 50 of the viewport height
     this.scrollY >= 50 ? header.classList.add('blur-header')
